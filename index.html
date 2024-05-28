@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title> 
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <img src="images/logo.svg" alt="logo">
+
+      <h1 class="title">We are launching <span class="title__span">soon!</span></h1>
+
+      <p class="description">Subscribe and get notified</p>
+    </header>
+
+    <form class="form" id="form">
+      <input type="text" name="email" class="form__input form__input--error" id="email" placeholder="Your email address...">
+      <p class="form__error" id="form__error"></p>
+
+      <button type="submit" class="form__button">Notify Me</button>
+    </form>
+    <div class="illustration__container">
+      <img src="images/illustration-dashboard.png" alt="illustration">
+    </div>
+
+    <footer class="footer">
+      <ul class="social__list">
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <img src="images/logo-facebook.svg" alt="facebook" class="social__img">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <img src="images/logo-twitter.svg" alt="twitter"  class="social__img">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <img src="images/logo-instagram.svg" alt="instagram" class="social__img">
+          </a>
+        </li>
+      </ul>
+      <p class="copyright">© Copyright Ping. All rights reserved.</p>
+    </footer>
+    
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
